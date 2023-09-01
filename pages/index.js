@@ -1,5 +1,9 @@
-import Image from "next/image";
+import Navbar from "../components/Nav";
 
 export default function Home() {
-  return <main></main>;
+  return (
+    <main>
+      <Navbar></Navbar>
+    </main>
+  );
 }

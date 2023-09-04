@@ -22,11 +22,28 @@ export const Navbar = styled.div`
 
     a {
       text-decoration: none;
+      height: 50px;
     }
-    hr {
-      width: 45px;
-      height: 3px;
-      top: 17.5px;
+    &__line {
+      display: flex;
+      flex-direction: column;
+      /* justify-content: space-around; */
+      align-items: center;
+
+      &__btn {
+        font-size: 2.1rem;
+        color: #c18469;
+        /* color: linear-gradient(
+          90deg,
+          rgba(255, 255, 255, 0.75) 0%,
+          #c18469 100%
+        ); */
+      }
+    }
+    &__line hr {
+      height: 2px;
+      width: 40px;
+      border: 0;
       background: linear-gradient(
         90deg,
         rgba(255, 255, 255, 0.75) 0%,
@@ -42,22 +59,26 @@ export const Navbar = styled.div`
     }
 
     &__txt {
-      width: 68.02px;
-      height: 21px;
-      top: 14px;
-      left: 60px;
-      padding-left: 5px;
+      padding-left: 0.8rem;
+      font-size: 1.1rem;
     }
 
     &__icons {
       padding: 0px 3px;
-      gap: 6px;
+      gap: 10px;
       display: flex;
       align-items: center;
       justify-content: space-between;
-    }
-    &__icon {
-      // padding: 9px;
+
+      .icon {
+        font-size: 1.5rem;
+        transition: all 0.3s;
+
+        :hover {
+          color: #c18469;
+          transform: translateY(-5px);
+        }
+      }
     }
   }
 `;

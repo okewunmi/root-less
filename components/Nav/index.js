@@ -1,4 +1,7 @@
 import { Navbar } from "./styles.js";
+import { HiMenuAlt4, HiMail, HiOutlineMenuAlt4 } from "react-icons/hi";
+import { TiSocialLinkedin } from "react-icons/ti";
+import { BiLogoBehance } from "react-icons/bi";
 import Image from "next/image";
 
 function NavBar() {
@@ -6,9 +9,10 @@ function NavBar() {
     <Navbar>
       <div className="menu">
         <a href="" className="menu__btn">
-          <div>
-            <hr></hr>
-            <hr></hr>
+          <div className="menu__line">
+            <HiOutlineMenuAlt4 className="menu__line__btn" />
+            {/* <hr className="hr__1" />
+            <hr className="hr__2" /> */}
           </div>
           <p className="menu__txt">MENU</p>
         </a>
@@ -18,37 +22,27 @@ function NavBar() {
           src="/logo.svg"
           alt="logo"
           className="nav__logo"
-          width={157}
-          height={41.63}
+          width={147}
+          height={31.63}
         />
       </div>
       <div className="menu__icons">
-        <a target="_blank" href="https://www.linkedin.com/in/abdul--hafeez/">
-          <Image
-            src="/linkedin.svg"
-            alt="lcons"
-            className="menu__lcon"
-            width={20}
-            height={20}
-          />
+        <a
+          className="icon"
+          target="_blank"
+          href="https://www.linkedin.com/in/abdul--hafeez/"
+        >
+          <TiSocialLinkedin />
         </a>
-        <a arget="_blank" href="https://www.linkedin.com/in/abdul--hafeez/">
-          <Image
-            src="/behance.svg"
-            alt="lcons"
-            className="menu__lcon"
-            width={38}
-            height={38}
-          />
+        <a
+          className="icon"
+          target="_blank"
+          href="https://www.behance.net/dainnovator/"
+        >
+          <BiLogoBehance />
         </a>
-        <a arget="_blank" href="https://www.linkedin.com/in/abdul--hafeez/">
-          <Image
-            src="/Mail.svg"
-            alt="lcons"
-            className="menu__lcon"
-            width={28}
-            height={28}
-          />
+        <a className="icon" target="_blank" href="hafeezkah@gmail.com">
+          <HiMail />
         </a>
       </div>
     </Navbar>

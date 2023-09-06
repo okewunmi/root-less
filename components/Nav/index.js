@@ -1,5 +1,5 @@
 import { Navbar } from "./styles.js";
-import { HiMenuAlt4, HiMail, HiOutlineMenuAlt4 } from "react-icons/hi";
+import { HiMail, HiOutlineMenuAlt4 } from "react-icons/hi";
 import { TiSocialLinkedin } from "react-icons/ti";
 import { BiLogoBehance } from "react-icons/bi";
 import Image from "next/image";

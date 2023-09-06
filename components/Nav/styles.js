@@ -6,8 +6,9 @@ export const Navbar = styled.div`
   height: 97px;
   display: flex;
   align-items: center;
-  padding: 11px 39.4100341796875px 11px 39.38999938964844px;
+  padding: 3rem 3rem;
   justify-content: space-between;
+  background: #000000cf;
 
   .menu {
     display: flex;
@@ -31,7 +32,7 @@ export const Navbar = styled.div`
       align-items: center;
 
       &__btn {
-        font-size: 2.1rem;
+        font-size: 2.4rem;
         color: #c18469;
         /* color: linear-gradient(
           90deg,
@@ -76,7 +77,6 @@ export const Navbar = styled.div`
 
         :hover {
           color: #c18469;
-          transform: translateY(-5px);
         }
       }
     }

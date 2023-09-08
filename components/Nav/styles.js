@@ -2,13 +2,13 @@ import styled from "styled-components";
 
 export const Navbar = styled.div`
   color: #ffff;
-  padding: 0 2rem;
-  height: 97px;
+  padding: 0 4rem;
+  height: 15vh;
   display: flex;
   align-items: center;
-  padding: 3rem 3rem;
+  padding: 1rem 3rem;
   justify-content: space-between;
-  background: #000000cf;
+  /* background: #000000cf; */
 
   .menu {
     display: flex;
@@ -57,6 +57,10 @@ export const Navbar = styled.div`
       flex-direction: row;
       align-items: center;
       justify-content: space-between;
+
+      &:hover{
+        
+      }
     }
 
     &__txt {

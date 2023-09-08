@@ -11,8 +11,6 @@ function NavBar() {
         <a href="" className="menu__btn">
           <div className="menu__line">
             <HiOutlineMenuAlt4 className="menu__line__btn" />
-            {/* <hr className="hr__1" />
-            <hr className="hr__2" /> */}
           </div>
           <p className="menu__txt">MENU</p>
         </a>

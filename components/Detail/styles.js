@@ -54,8 +54,6 @@ background: #000000cf;
             align-items: center;
             justify-content: space-around;
            color: rgba(255, 255, 255, 0.8);
-;
-            
             .svg{
                 padding-right: .5rem;
                
@@ -83,6 +81,52 @@ margin-left: 8rem;
     gap: .8rem;
     display: flex;
     flex-direction: column;
+    
+}
+
+`
+export const Service = styled.div`
+display: flex;
+margin: 7rem 0 0 0;
+gap:1.5rem;
+/* align-items:center; */
+justify-content: center;
+
+.service{
+    background: linear-gradient(184.7deg, #40008F 0%, #2B0050 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 19rem;
+    height: 13rem;
+    border-radius: .5rem;
+    color: white;
+    padding: 1rem;;
+    
+
+    &__txt{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h3{
+            font-size: 1.35rem;
+        }
+    
+        p{
+            font-size: .75rem;
+            font-weight: 400;
+            line-height: 1.3;
+            text-align: center;
+            margin-top: -.5rem;
+            /* letter-spacing: 1px; */
+            
+        }
+        
+    }
+
+
 }
 
 `

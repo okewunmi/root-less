@@ -1,4 +1,4 @@
-import {Wrapper,Content } from "./styles.js";
+import {Wrapper,Content, Service } from "./styles.js";
 import { BiLogoBehance } from "react-icons/bi";
 import {HiOutlineSpeakerphone} from 'react-icons/hi'
  import Image from "next/image";
@@ -52,6 +52,31 @@ import {HiOutlineSpeakerphone} from 'react-icons/hi'
                     <Image src='/laptophone.png' width={400} height={400}  className="img"/>
                 </div>
             </Content>
+            <Service>
+            <div className="service"> 
+            <Image  src="/research2.png" width={60} height={60}/>
+            <div className="service__txt">
+            <h3>Research</h3>
+            <p>Understand the market, define the audience, and ideate potential solutions.</p>
+            </div>
+            </div>
+            <div className="service"> 
+            <Image  src="/product2.png" width={60} height={60}/>
+            <div className="service__txt">
+            <h3>Product Design</h3>
+            <p>Define the solution, create a roadmap, establish
+architecture and design the product.</p>
+            </div>
+            </div><div className="service"> 
+            <Image  src="/testing.png" width={60} height={60}/>
+            <div className="service__txt">
+            <h3>Testing</h3>
+            <p>Establish usability, meet accessibility needs and
+ensure a delightful solution.</p>
+            </div>
+            </div>
+            </Service>
+            
             
         </Wrapper>
     )

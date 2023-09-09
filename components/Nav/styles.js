@@ -16,6 +16,7 @@ export const Navbar = styled.div`
     justify-content: space-between;
     width: 128.02000427246094px;
     height: 50px;
+  
 
     :hover {
       cursor: pointer;

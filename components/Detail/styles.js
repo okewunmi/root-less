@@ -43,7 +43,6 @@ background: #000000cf;
         
         .icon{
             display: flex;
-            align-items: center;
             justify-content: space-around;
             background: rgba(128, 128, 128, 0.16);
             border-radius: 1.4rem;
@@ -52,8 +51,7 @@ background: #000000cf;
             font-weight: 400;
             display: flex;
             align-items: center;
-            justify-content: space-around;
-           color: rgba(255, 255, 255, 0.8);
+            color: rgba(255, 255, 255, 0.8);
             .svg{
                 padding-right: .5rem;
                
@@ -102,7 +100,13 @@ justify-content: center;
     height: 13rem;
     border-radius: .5rem;
     color: white;
-    padding: 1rem;;
+    padding: 1rem;
+
+    :hover{
+       
+        
+
+    }
     
 
     &__txt{

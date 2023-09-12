@@ -80,7 +80,7 @@ export const Navbar = styled.div`
         font-size: 1.5rem;
         transition: all 0.3s;
 
-        :hover {
+        &:hover {
           color: #c18469;
         }
       }

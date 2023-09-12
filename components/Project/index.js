@@ -23,7 +23,7 @@ const index = () => {
                     <div className="box__btn"> <a target="_blank" href='https://youtu.be/tMHb3vRXBK4' className="btn">View Prototype video</a></div>
                 </div>
                 <div className="box">
-                    <Image src={photo2} width={450} height={420}/>
+                    <Image src={photo2} width={450} height={440}/>
                     <div className="box__text">
                         <h3 className="box__text--big">Zoom RIda</h3>
                         <p className="box__text--small">UI design, Ride App</p>
@@ -50,8 +50,12 @@ professional band.</p>
                     </div>
                     <div className="box__btn"> <a target="_blank" href='https://youtu.be/peRe_RJkIiQ' className="btn">View Prototype video</a></div>
                 </div>
+                
             </Content>
-            
+            <div className="link">
+                    <p>Check out the rest of <span> <a href=""> my work </a></span> ! </p>
+                   
+                </div>
         </Wrapper>
     )
 }

@@ -5,7 +5,7 @@ display: flex;
 background: #000000cf;
 flex-direction: column;
 /* margin-top: 4rem; */
-padding-bottom:3rem ;
+padding-bottom:1rem ;
 
 .project{
     display:flex;
@@ -29,7 +29,19 @@ padding-bottom:3rem ;
 
     }
 }
+.link{
+    padding-top: 3rem;
+    color: white;
+    display: flex;
+    align-self: center;
+    font-size: large;
+    font-weight: 500;
 
+    a{
+        color: rgba(246, 185, 24, 1);
+    }
+    
+}
 `
 export const Content = styled.div`
 display:grid;
@@ -49,7 +61,7 @@ flex-direction: column;
 padding: 1rem;
 border-radius: .5rem;
 width: 30rem;
-height: 42rem;
+height: 40rem;
 justify-content: space-between;
 
 &__text{

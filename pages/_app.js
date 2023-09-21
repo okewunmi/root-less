@@ -1,5 +1,6 @@
 import "@/styles/globals.css";
 import "@/styles/globalStyles.js";
+
 import { ThemeProvider } from "styled-components";
 
 const theme = {

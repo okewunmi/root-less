@@ -1,5 +1,5 @@
 import Image from "next/image";
-import {Wrapper,Content} from './styles.js'
+import {Wrappers, Content} from './styles.js'
 import photo1 from '../../public/ptvs.jpeg';
 import photo2 from '../../public/zoomride.jpeg'
 import photo3 from '../../public/florish.jpeg'
@@ -7,10 +7,10 @@ import photo4 from '../../public/rental.jpeg'
 
 const index = () => {
     return (
-        <Wrapper>
+        <Wrappers>
             <div className='project'>
-            <h1 className='project__head'>Featured Projects</h1>
-            <p className='project__txt'>These are the tip of the iceberg, but I'm proud of all of these projects.</p>
+            <h1 className='project__head'>Selected Work</h1>
+           
             </div>
             <Content>
                 <div className="box">
@@ -31,6 +31,17 @@ const index = () => {
                     </div>
                     <div className="box__btn"> <a target="_blank" href='https://youtu.be/y42GEkcAUp0' className="btn">View Prototype video</a></div>
                 </div>
+                {/* zoom off image is required */}
+                <div className="box">
+                    <Image src={photo3} width={450} height={420}/>
+                    <div className="box__text">
+                        <h3 className="box__text--big">Zoom Off</h3>
+                        <p className="box__text--small">Ui Design, Apple store Design</p>
+                        <p className="box__text--small-2">This design shows the design of a app on an iphone apple store amd how an app accomodates them </p>  
+                    </div>
+                    <div className="box__btn"> <a target="_blank" href='#' className="btn">View Prototype video</a></div>
+                </div>
+
                 <div className="box">
                     <Image src={photo3} width={450} height={420}/>
                     <div className="box__text">
@@ -40,6 +51,7 @@ const index = () => {
                     </div>
                     <div className="box__btn"> <a target="_blank" href='https://youtu.be/6gLA4yTC5Nw' className="btn">View Prototype video</a></div>
                 </div>
+
                 <div className="box">
                     <Image src={photo4} width={450} height={420}/>
                     <div className="box__text">
@@ -55,7 +67,7 @@ const index = () => {
                     <p>Check out the rest of <span> <a href=""> my work </a></span> ! </p>
                    
                 </div>
-        </Wrapper>
+        </Wrappers>
     )
 }
 

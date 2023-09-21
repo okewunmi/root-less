@@ -1,11 +1,59 @@
 import styled from "styled-components";
 
+export const Wrappers =styled.div`
+display: flex;
+background: #0F0F0F;
+flex-direction: column;
+/* margin-top: 4rem; */
+padding-bottom:1rem ;
+
+
+.project{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction:column;
+    width:100%;
+    margin: 4rem 0;
+
+    &__head{
+        color:white;
+        font-weight:700;
+        font-size:2.2rem
+        
+    }
+    &__txt{
+        margin-top: -.6rem;
+        color: rgba(180, 180, 180, 1);
+        font-weight:400;
+        font-size:1rem;
+
+    }
+}
+.link{
+    padding-top: 3rem;
+    color: white;
+    display: flex;
+    align-self: center;
+    font-size: large;
+    font-weight: 500;
+
+    a{
+        color: rgba(246, 185, 24, 1);
+    }
+    
+}
+`
 export const Wrapper = styled.div`
 display: flex;
 background: #000000cf;
 flex-direction: column;
 /* margin-top: 4rem; */
 padding-bottom:1rem ;
+
+.otherBckground{
+   background: #0F0F0F;
+}
 
 .project{
     display:flex;

@@ -65,14 +65,13 @@ import {HiOutlineSpeakerphone} from 'react-icons/hi'
             <div className="service__txt">
             <h3>Product Design</h3>
             <p>Define the solution, create a roadmap, establish
-architecture and design the product.</p>
+                architecture and design the product.</p>
             </div>
             </div><div className="service"> 
             <Image  src="/testing.png" width={60} height={60}/>
             <div className="service__txt">
             <h3>Testing</h3>
-            <p>Establish usability, meet accessibility needs and
-ensure a delightful solution.</p>
+            <p>Establish usability, meet accessibility needs and ensure a delightful solution.</p>
             </div>
             </div>
             </Service>

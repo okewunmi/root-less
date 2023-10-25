@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import bg from '../../public/hero.png'
+// import bg from '../../public/hero.png'
 
 export const TopSec = styled.div`
 

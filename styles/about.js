@@ -56,12 +56,13 @@ height: 20rem;
         font-size: 2rem;
     }
     &--txt{
-        padding: 0 9rem;
-        font-size: .9rem;
+        padding: 0 8rem;
+        font-size: 1rem;
         font-weight: 350;
-        line-height: 1.8;
+        line-height: 1.9;
         letter-spacing: 1px;
         margin-top: -.4rem;
+        text-align: justify;
     }
     &--big{
         padding-top: 3rem;

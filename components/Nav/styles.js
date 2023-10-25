@@ -1,13 +1,64 @@
 import styled from "styled-components";
 
+
+
 export const Navbar = styled.div`
+
+.fixed{
+  position: fixed; 
+}
+.modal{
+  z-index:100;
+  height: 85vh;
+  width: 100%;
+  color: white;
+  /* position: fixed; */
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  
+
+  padding: 5rem 0;
+
+  .link{
+    transition: all .2s;
+    :hover{
+      transform: scale(1.5) rotate(10deg);
+      /* color:#7200FF ; */
+      color: #c18469;
+    }
+  }
+  h1{
+    transition: all .5s;
+    font-size: 2rem;
+    letter-spacing: .4rem;
+    font-weight: 700;
+
+    
+  }
+
+}
+
+.nav{
   color: #ffff;
   padding: 0 4rem;
   height: 15vh;
   display: flex;
   align-items: center;
   padding: 1rem 3rem;
+  width: 100%;
   justify-content: space-between;
+}
+  /* color: #ffff;
+  padding: 0 4rem;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  padding: 1rem 3rem;
+  justify-content: space-between; */
   /* background: #000000cf; */
 
   .menu {
@@ -16,25 +67,33 @@ export const Navbar = styled.div`
     justify-content: space-between;
     width: 128.02000427246094px;
     height: 50px;
-  
 
     :hover {
       cursor: pointer;
     }
+    
 
-    a {
+    /* a {
       text-decoration: none;
       height: 50px;
-    }
+    } */
     &__line {
       display: flex;
       flex-direction: column;
       /* justify-content: space-around; */
       align-items: center;
 
+      .btn{
+        background: none;
+        outline: none;
+        border: none;
+      }
+
       &__btn {
         font-size: 2.4rem;
         color: #c18469;
+        background: none;
+        
         /* color: linear-gradient(
           90deg,
           rgba(255, 255, 255, 0.75) 0%,
@@ -65,7 +124,7 @@ export const Navbar = styled.div`
     }
 
     &__txt {
-      padding-left: 0.8rem;
+      padding-left: 0.5rem;
       font-size: 1.1rem;
     }
 
@@ -86,4 +145,5 @@ export const Navbar = styled.div`
       }
     }
   }
+  
 `;

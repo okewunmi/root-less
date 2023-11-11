@@ -12,6 +12,19 @@ const index = () => {
     return (
         <Wrapper>
             <Navbar/>
+            <Image
+            alt="Mountains"
+            src={bg}
+            placeholder="blur"
+            quality={100}
+            fill
+             sizes="100vw"
+            style={{
+                objectFit: 'contain',
+                zIndex:"-1",
+                top:"6rem"
+            }}
+            ></Image>
                 <Contact  />  
             <Footer/>
         </Wrapper>

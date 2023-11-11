@@ -8,6 +8,8 @@ import { BiLogoBehance } from 'react-icons/bi';
 import Image from 'next/image';
 
 
+
+
 function NavBar() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -23,7 +25,9 @@ function NavBar() {
         {/* ---modal--- */}
         <div  className="menu__btn">
           <div className="menu__line ">
-            {isModalOpen ? (
+          <Link className='link' href="/Menu"> <HiOutlineMenuAlt4  className="menu__line__btn" /> </Link>
+          
+            {/* {isModalOpen ? (
               <button className="open-button btn" onClick={toggleModal}>
               <MdClose className="menu__line__btn" />
             </button>
@@ -32,7 +36,7 @@ function NavBar() {
               <button className="close-button btn" onClick={toggleModal}>
               <HiOutlineMenuAlt4  className="menu__line__btn" /> 
             </button>
-            )}
+            )} */}
           </div>
           <p className="menu__txt">MENU</p>
        </div>
@@ -71,17 +75,14 @@ function NavBar() {
         </a>
       </div>
       </div>
-      {isModalOpen && (
-        <div className="modal">
-        
+      {/* {isModalOpen && (
+        <div className="modal" >
           <Link className='link' href="/"><h1>HOME</h1></Link>
           <Link className='link'  href="/about"><h1>ABOUT ME</h1></Link>
           <Link className='link'  href="/projects"><h1>PROJECTS</h1></Link>
           <Link className='link'  href="/contact"><h1>CONTACT</h1></Link>
-          
-          
          </div>
-      )}
+      )} */}
       
     </Navbar>
     

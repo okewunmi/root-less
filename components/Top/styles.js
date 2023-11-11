@@ -11,6 +11,11 @@ export const TopSec = styled.div`
   justify-content: center;
   position: relative;
   
+  @media only screen and (max-width: 500px) {
+    margin-top:.0rem;
+   
+}
+  
   .container{
     /* background: black; */
     display: flex;
@@ -33,7 +38,17 @@ export const TopSec = styled.div`
       .image{
         position: absolute;
         z-index: -1;
-        
+        @media only screen and (max-width: 500px) {
+          width: 380px !important;
+          height: 380px !important;
+   
+}
+@media only screen and (max-width: 480px) {
+          width: 320px !important;
+          height: 320px !important;
+   
+}
+     
       }
     }
     
@@ -52,15 +67,33 @@ export const TopSec = styled.div`
       }
       .txt--1{
         font-size: 3rem; 
+        @media only screen and (max-width: 650px) {
+          font-size: 2rem; 
+          margin-bottom: 1.9rem;
+    }
+    @media only screen and (max-width: 650px) {
+          font-size: 1.8rem; 
+          margin-bottom: 2.9rem;
+    }
       }
       .txt--2{
         margin-top:-2.7rem;
         font-size: 3.6rem; 
+        @media only screen and (max-width: 650px) {
+          font-size: 1.9rem; 
+    }
+    @media only screen and (max-width: 650px) {
+          font-size: 1.7rem; 
+    }
       }
     }
     &__btn{
       display: flex;
       gap: 1.5rem;
+      @media only screen and (max-width: 650px) {
+          flex-direction :column;
+          gap: 1rem;
+    }
    
       a{
         text-decoration:none;
@@ -71,6 +104,13 @@ export const TopSec = styled.div`
         font-size: .7rem;
         font-weight: 600;
         letter-spacing:1px;
+        text-align: center;
+
+        @media only screen and (max-width: 650px) {
+          padding: .5rem 1.8rem;
+          font-size: .6rem;
+          font-weight: 600;
+    }
       }
       
       .btn__download{

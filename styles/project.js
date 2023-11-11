@@ -12,6 +12,10 @@ color: white;
 
     h1{
         font-size: 61px;
+
+        @media only screen and (max-width: 768px) {
+            font-size: 41px; 
+        }
     }
 }
 .about__link{

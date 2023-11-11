@@ -4,6 +4,7 @@ import photo1 from '../../public/ptvs.jpeg';
 import photo2 from '../../public/zoomride.jpeg'
 import photo3 from '../../public/florish.jpeg'
 import photo4 from '../../public/rental.jpeg'
+import photo5 from '../../public/zoom.png'
 
 const index = () => {
     return (
@@ -14,7 +15,7 @@ const index = () => {
             </div>
             <Content>
                 <div className="box">
-                    <Image src={photo1} width={450} height={420}/>
+                    <Image className="grid__img" src={photo1} width={450} height={420}/>
                     <div className="box__text">
                         <h3 className="box__text--big">PTVS</h3>
                         <p className="box__text--small">UI/UX design, Research, News Authenticity App</p>
@@ -23,7 +24,7 @@ const index = () => {
                     <div className="box__btn"> <a target="_blank" href='https://youtu.be/tMHb3vRXBK4' className="btn">View Prototype video</a></div>
                 </div>
                 <div className="box">
-                    <Image src={photo2} width={450} height={440}/>
+                    <Image className="grid__img" src={photo2} width={450} height={440}/>
                     <div className="box__text">
                         <h3 className="box__text--big">Zoom RIda</h3>
                         <p className="box__text--small">UI design, Ride App</p>
@@ -33,7 +34,7 @@ const index = () => {
                 </div>
                 {/* zoom off image is required */}
                 <div className="box">
-                    <Image src={photo3} width={450} height={420}/>
+                    <Image className="grid__img" src={photo5} width={450} height={420}/>
                     <div className="box__text">
                         <h3 className="box__text--big">Zoom Off</h3>
                         <p className="box__text--small">Ui Design, Apple store Design</p>
@@ -43,7 +44,7 @@ const index = () => {
                 </div>
 
                 <div className="box">
-                    <Image src={photo3} width={450} height={420}/>
+                    <Image className="grid__img" src={photo3} width={450} height={420}/>
                     <div className="box__text">
                         <h3 className="box__text--big">Florist App</h3>
                         <p className="box__text--small">UI/UX design, Usability Study, UX Research</p>
@@ -53,7 +54,7 @@ const index = () => {
                 </div>
 
                 <div className="box">
-                    <Image src={photo4} width={450} height={420}/>
+                    <Image className="grid__img" src={photo4} width={450} height={420}/>
                     <div className="box__text">
                         <h3 className="box__text--big">Extante Rental Homes</h3>
                         <p className="box__text--small">Branding, UX Design, Web Design</p>

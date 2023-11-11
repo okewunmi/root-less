@@ -5,30 +5,46 @@ export const Wrapper = styled.div`
 .about__imgae{
 width: 100%;
 height: 20rem;
+
+@media only screen and (max-width: 768px) {
+height: 10rem;
+        }
 }
 /* object-fit: contain; */
 .about__heading{
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.95) 41%, rgba(0, 0, 0, 0.8) 100%);
+    /* background: linear-gradient(180deg, rgba(0, 0, 0, 0.95) 41%, rgba(0, 0, 0, 0.8) 100%); */
 
-    padding: 1rem 0;
+    /* padding: 1rem 0; */
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: white;
-    /* height: 935.97px; */
-    /* gap: .1rem; */
+    
+    .backgroundImg{
+
+        @media only screen and (max-width: 768px) {
+           display :none !important;
+        }
+    }
  
 }
 .about__title{
    font-weight: 700;
    font-size: 3.4rem;
+   @media only screen and (max-width: 768px) {
+    font-size: 1.7rem;
+        }
 }
 .about__txt{
     color: #B4B4B4;
     font-weight: 400;
     font-size: 1.2rem;
     margin-top: -.5rem;
+    
+    @media only screen and (max-width: 768px) {
+           display :none !important;
+        }
 }
 .about__link{
     display: flex;
@@ -49,11 +65,22 @@ height: 20rem;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 3rem;
+    padding: 1rem 3rem;
+
+    @media only screen and (max-width: 768px) {
+            padding: 1rem 1.2rem;
+        }
 
     &--head{
         font-weight: 450;
         font-size: 2rem;
+
+        @media only screen and (max-width: 768px) {
+            font-size: 1.1rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+        }
+        
     }
     &--txt{
         padding: 0 8rem;
@@ -62,11 +89,22 @@ height: 20rem;
         line-height: 1.9;
         letter-spacing: 1px;
         margin-top: -.4rem;
-        text-align: justify;
+
+        @media only screen and (max-width: 768px) {
+            padding: 0;
+            text-align: justify;
+            font-size: .8rem;
+       
+        }
+        /* text-align: justify; */
     }
     &--big{
         padding-top: 3rem;
         font-size: 4rem;
+        @media only screen and (max-width: 768px) {
+            display: none;
+       
+        }
     }
 }
 .about__skills{
@@ -78,6 +116,10 @@ height: 20rem;
    
     &__image{
 width: 50%;
+@media only screen and (max-width: 768px) {
+           display: none;
+       
+        }
 .img{
     width: 80%;
     height: 24rem;
@@ -87,6 +129,11 @@ width: 50%;
         display: flex;
         flex-direction: column;
         width: 50%;
+        @media only screen and (max-width: 768px) {
+           width: 100%;
+           align-items: center;
+       
+        }
         /* padding: 0 5rem 0 5rem; */
         /* justify-content: flex-start; */
         .head{
@@ -139,6 +186,13 @@ width: 50%;
     align-items: center;
     gap: 5rem;
     padding: 4rem 0;
+
+    @media only screen and (max-width: 768px) {
+            flex-direction: column;
+            gap: 0rem;
+           
+       
+        }
    
    
     

@@ -13,7 +13,7 @@ const index = () => {
     return (
         <Wrapper>
             <h1>High Fives 🙌</h1>
-            <p>Don't just take my word for it.</p>
+            <p className="txt">Don't just take my word for it.</p>
             <Carousel showArrows={true}
             infiniteLoop={true}
             showThumbs={false}
@@ -36,11 +36,10 @@ const index = () => {
         <div>
         <Image src={person2} alt="person"/>
           <div className="myCarousel">
-            <h3>Daniel Keystone</h3>
+            <h3>Eductech</h3>
             <h4>Designer</h4>
             <p>
-              The simple and intuitive design makes it easy for me use. I highly
-              recommend Fetch to my peers.
+            "I deduced he is a well focused and result-driven oriented instructor whose eyes are on the goals. He is highly cerebral and possess appreciable prowess in teaching both the theoretical and pratical aspect of UI/UX."
             </p>
           </div>
         </div>
@@ -48,15 +47,25 @@ const index = () => {
         <div>
         <Image src={person2} alt="person"/>
           <div className="myCarousel">
+            <h3>Laolu Omokanwaiye</h3>
+            <h4>Designer</h4>
+            <p>
+            Mr Abdul-hafeez is a delight to work with and I am confident that he will perform well.
+            </p>
+          </div>
+        </div>
+        {/* <div>
+        <Image src={person2} alt="person"/>
+          <div className="myCarousel">
             <h3>Theo Sorel</h3>
             <h4>Designer</h4>
             <p>
               I enjoy catching up with Fetch on my laptop, or on my phone when
               I'm on the go!
             </p>
-          </div>
-        </div>
-        <div>
+          </div> */}
+        {/* </div> */}
+        {/* <div>
         <Image src={person2} alt="person"/>
           <div className="myCarousel">
             <h3>Theo Sorel</h3>
@@ -66,18 +75,7 @@ const index = () => {
               I'm on the go!
             </p>
           </div>
-        </div>
-        <div>
-        <Image src={person2} alt="person"/>
-          <div className="myCarousel">
-            <h3>Theo Sorel</h3>
-            <h4>Designer</h4>
-            <p>
-              I enjoy catching up with Fetch on my laptop, or on my phone when
-              I'm on the go!
-            </p>
-          </div>
-        </div>
+        </div> */}
             </Carousel>
         </Wrapper>
     )

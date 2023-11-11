@@ -2,6 +2,7 @@ import { Wrapper } from "./styles"
 import { HiMail, HiOutlineMenuAlt4 } from "react-icons/hi";
 import { TiSocialLinkedin } from "react-icons/ti";
 import { BiLogoBehance } from "react-icons/bi";
+import Link from "next/link";
 const index = () => {
     return (
         <Wrapper>
@@ -9,11 +10,11 @@ const index = () => {
                 <h3 className="name__head">Abdul Hafeez</h3>
                 <p className="name__txt">Abdul-hafeeez is a UX and CX designer from Nigeria</p>
                 <nav className="name__nav">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contact</a></li>
+                <Link className='link' href="/">Home</Link>
+                <Link className='link'  href="/about">About</Link>
+                <Link className='link'  href="/projects">Projects</Link>
+                <Link className='link'  href="#">Blog</Link>
+                <Link className='link'  href="/contact">Contact</Link>
                 </nav>
             </div>
             <div className="social">

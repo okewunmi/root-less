@@ -19,6 +19,8 @@ export const Navbar = styled.div`
   justify-content: space-between;
   align-items: center;
 
+  animation: all .2s;
+ 
   
 
   padding: 5rem 0;
@@ -26,8 +28,7 @@ export const Navbar = styled.div`
   .link{
     transition: all .2s;
     :hover{
-      transform: scale(1.5) rotate(10deg);
-      /* color:#7200FF ; */
+      transform: scale(1.3) rotate(10deg);
       color: #c18469;
     }
   }
@@ -36,8 +37,9 @@ export const Navbar = styled.div`
     font-size: 2rem;
     letter-spacing: .4rem;
     font-weight: 700;
-
-    
+    @media only screen and (max-width: 768px) {
+      font-size: 1.7rem;
+        }
   }
 
 }
@@ -51,6 +53,17 @@ export const Navbar = styled.div`
   padding: 1rem 3rem;
   width: 100%;
   justify-content: space-between;
+
+  @media only screen and (max-width: 768px) {
+    padding: 0 1rem;
+        }
+
+ .nav__logo{
+  @media only screen and (max-width: 768px) {
+    width: 137px;
+    height: 25px;
+        }
+ }
 }
   /* color: #ffff;
   padding: 0 4rem;
@@ -126,9 +139,16 @@ export const Navbar = styled.div`
     &__txt {
       padding-left: 0.5rem;
       font-size: 1.1rem;
+      
+      @media only screen and (max-width: 768px) {
+      display:none !important;
+    }
     }
 
     &__icons {
+      @media only screen and (max-width: 768px) {
+      display:none !important;
+    }
       padding: 0px 3px;
       gap: 10px;
       display: flex;

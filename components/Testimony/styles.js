@@ -5,12 +5,28 @@ color:white;
 background: linear-gradient(184.7deg, #40008F 0%, #2B0050 100%);
 padding: 5rem 0 ;
 
+@media only screen and (max-width: 786px) {
+  h1{
+    font-size: 1.5rem;
+
+  }
+  .txt{
+    font-size: .9rem;
+    margin-top: -.2rem;
+  }
+  
+        }
+
+@media only screen and (max-width: 1000px) {
+  padding: 1rem 0 3rem 0 ;
+        }
+
 display:flex;
 align-items:center;
 flex-direction:column; 
 
 .carousel-root {
-  width: 90% !important;
+  width: 95% !important;
   margin: auto !important;
   margin-top: 3% !important;
 }
@@ -22,11 +38,16 @@ flex-direction:column;
 }
 
 .carousel .slide img {
-  width: 135px !important;
-  height: 135px !important;
+  width: 135px ;
+  height: 135px ;
   object-fit: cover;
   border-radius: 50%;
-  border: 10px solid #40008F !important;
+  border: 8px solid #40008F !important;
+
+  @media only screen and (max-width: 550px) {
+    width: 100px ;
+  height: 100px ;
+        }
 }
 
 .myCarousel {
@@ -41,7 +62,18 @@ flex-direction:column;
   padding-right: 5%;
   border: 1px solid #ddd;
   height: 300px !important;
+
+  @media only screen and (max-width: 930px) {
+    height: 340px !important;
+        }
   /* border-radius: 1rem !important; */
+
+  @media only screen and (max-width: 930px) {
+ width: 80% !important;
+        }
+  @media only screen and (max-width: 500px) {
+ width: 90% !important;
+        }
 }
 
 .carousel .control-dots {
@@ -57,16 +89,16 @@ flex-direction:column;
   margin-bottom: 4px;
   font-weight: 600;
   text-transform: uppercase;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .myCarousel h4 {
   text-transform: uppercase;
   margin-top: 0;
   padding-top: 0;
-  font-weight: 500;
+  font-weight: 400;
   color: #787878;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .myCarousel p {

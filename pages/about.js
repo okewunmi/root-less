@@ -8,6 +8,8 @@ import skillImage from '../public/block-about.png'
 import adobe from '../public/logos_adobe-xd.png'
 import Invision from '../public/logos_invision-icon.png'
 import figma from '../public/figma.png'
+import Link from "next/link";
+import bg from '../public/about.png'
 
 const about = () => {
     return (
@@ -16,15 +18,32 @@ const about = () => {
             <content>
             <Image src={backgrdImg} alt="background" className="about__imgae"  />
             <div className="about__heading"> 
+            <Image
+            alt="Mountains"
+            className="backgroundImg"
+            src={bg}
+            placeholder="blur"
+            quality={100}
+            fill
+             sizes="100vw"
+            style={{
+                objectFit: 'cover',
+                
+                zIndex:"-1",
+                top:"26rem"
+            }}
+            ></Image>
             <h1 className="about__title">I'm Abdul-Hafeez! ✨</h1>
             <p className="about__txt">He is a digital designer located in Nigeria</p>
             <div className="about__link">
-                <a href="#" className="home">Home</a>
+            <Link className="home"  href="/">Home</Link>
                 <p className="txt">About</p>
             </div>
             <div className="about__cont"> 
+           
             <h3 className="about__cont--head">An Adventurous Kind of Life</h3>
             <p className="about__cont--txt">
+            
             My name is Abdul-Hafeez. I am a college graduate and my most vital subjects in school were Forensic Accounting and Taxation. I enjoy learning and am very adventurous. I like to think outside the box and love employers who give me the chance to show what I can do. I also love to design for users I.e. My designs are User-centered. I have a passion for technology and enjoy helping others. I am interested in the UI/UX design positions and have previous experience as a UI/UX facilitator. I believe I am more than capable of this industry because of my desire to learn more. The Google UX design Certificate which I have acquired has made me a better candidate and will help me develop the professional skills I currently lack.
             </p>
             <h1 className="about__cont--big">Abdul-Hafeez</h1>

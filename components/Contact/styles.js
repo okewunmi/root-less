@@ -9,10 +9,15 @@ padding-bottom:5rem;
 .heading{
 font-size: 2rem;
 padding: 3rem 0;
+
+@media only screen and (max-width: 768px) {
+            font-size: 1.4rem;
+        }
 }
 .form{
     display: flex;
     flex-direction: column;
+   
    
 .btn{
     margin-top: 2rem;
@@ -23,6 +28,12 @@ padding: 3rem 0;
     font-weight: bold;
     cursor: pointer;
     transition: all .3s ease;
+
+    @media only screen and (max-width: 768px) {
+        padding: .5rem 1.7rem;
+        margin-top: 1.2rem;
+        font-size: .9rem;
+        }
    
     &:hover{
         transform: scale(1.1);
@@ -43,7 +54,9 @@ padding: 3rem 0;
         font-size: 1.1rem;
         text-transform: uppercase;
         padding-bottom: .6rem;
-       
+        @media only screen and (max-width: 768px) {
+            font-size: .9rem;
+        }
     }
     input{
         outline: none;
@@ -54,6 +67,10 @@ padding: 3rem 0;
         color: white;
         font-size: .9rem;
         width: 30rem;
+        @media only screen and (max-width: 768px) {
+            width: 18rem;
+            height  :3rem ;
+        }
     }
     textarea{
         background: rgba(31, 31, 31, 1);
@@ -66,6 +83,9 @@ padding: 3rem 0;
         height: 10rem;
         color:white;
         word-spacing: 1px;
+        @media only screen and (max-width: 768px) {
+            width: 19rem;  
+        }
 
     }
 .check{

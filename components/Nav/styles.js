@@ -9,7 +9,7 @@ export const Navbar = styled.div`
 }
 .modal{
   z-index:100;
-  height: 85vh;
+  height: 75vh;
   width: 100%;
   color: white;
   /* position: fixed; */

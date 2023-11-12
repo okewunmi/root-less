@@ -13,7 +13,7 @@ const index = () => {
     return (
         <Wrapper>
             <h1>High Fives 🙌</h1>
-            <p className="txt">Don't just take my word for it.</p>
+            <p className="txt">Dont&#39; just take my word for it.</p>
             <Carousel showArrows={true}
             infiniteLoop={true}
             showThumbs={false}
@@ -39,7 +39,7 @@ const index = () => {
             <h3>Eductech</h3>
             <h4>Designer</h4>
             <p>
-            "I deduced he is a well focused and result-driven oriented instructor whose eyes are on the goals. He is highly cerebral and possess appreciable prowess in teaching both the theoretical and pratical aspect of UI/UX."
+            &ldquo;I deduced he is a well focused and result-driven oriented instructor whose eyes are on the goals. He is highly cerebral and possess appreciable prowess in teaching both the theoretical and pratical aspect of UI/UX.&ldquo;
             </p>
           </div>
         </div>

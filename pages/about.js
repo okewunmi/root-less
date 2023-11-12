@@ -33,7 +33,7 @@ const about = () => {
                 top:"26rem"
             }}
             ></Image>
-            <h1 className="about__title">I'm Abdul-Hafeez! ✨</h1>
+            <h1 className="about__title"> I&lsquo;m Abdul-Hafeez! ✨ </h1>
             <p className="about__txt">He is a digital designer located in Nigeria</p>
             <div className="about__link">
             <Link className="home"  href="/">Home</Link>
@@ -52,7 +52,7 @@ const about = () => {
             </content>
             <div className="about__skills">
                 <div className="about__skills__image">
-                    <Image src={skillImage} className="img"/>
+                    <Image src={skillImage} className="img" alt="skillImage" />
                 </div>
                
                 <div className="about__skills__txt">
@@ -83,15 +83,15 @@ const about = () => {
             </div>
             <div className="skill__icons">
                     <div className="icon">
-                        <Image src={adobe} className='icons'/>
+                        <Image src={adobe} className='icons' alt="invision"/>
                         <p>Adobe Xd</p>
                     </div>
                     <div className="icon">
-                        <Image src={figma} className='icons'/>
+                        <Image src={figma} className='icons' alt="invision"/>
                         <p>Figma</p>
                     </div>
                     <div className="icon">
-                        <Image src={Invision} className='icons'/>
+                        <Image src={Invision} className='icons' alt="invision" />
                         <p>Invision</p>
                     </div>
                 </div>

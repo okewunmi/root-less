@@ -16,7 +16,7 @@ export const Navbar = styled.div`
   background-color: black;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 
   animation: all .2s;

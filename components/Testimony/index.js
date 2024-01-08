@@ -7,7 +7,8 @@ import {Wrapper} from './styles.js'
 import person1 from '../../images/person2.jpeg';
 import person2 from '../../images/person1.jpeg';
 import Image from "next/image.js";
-import person3 from '../public/testitomy.png'
+import photo from '../../images/profile.png'
+
 
 const index = () => {
 
@@ -22,7 +23,7 @@ const index = () => {
             autoPlay={true}
             interval={6100}>
             <div>
-          <Image src={person3} alt="person"/>
+          <Image src={photo} alt="person"/>
           <div className="myCarousel">
             <h3>Tumininu Umeike</h3>
             <h4>UX designer</h4>
@@ -35,7 +36,7 @@ const index = () => {
         </div>
 
         <div>
-        <Image src={person3} alt="person"/>
+        <Image src={photo}  alt="person"/>
           <div className="myCarousel">
             <h3>Eductech</h3>
             <h4>Designer</h4>
@@ -46,7 +47,7 @@ const index = () => {
         </div>
 
         <div>
-        <Image src={person3} alt="person"/>
+        <Image src={photo} alt="person"/>
           <div className="myCarousel">
             <h3>Laolu Omokanwaiye</h3>
             <h4>Designer</h4>

@@ -1,5 +1,6 @@
 import { TopSec } from "./styles.js";
 import Image from "next/image";
+
 import bg from "../../public/hero.png";
 import Link from "next/link.js";
 
@@ -8,6 +9,7 @@ const Top = () => {
     <TopSec>
       <div className="container">
         <div className="container__img">
+          {/* <Video></Video> */}
           <Image src={bg} alt="bg" className="image" width={500} height={500} />
         </div>
         <div className="container__txt">

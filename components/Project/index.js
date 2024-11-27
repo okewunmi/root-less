@@ -128,7 +128,7 @@ const index = () => {
         <p>
           Check out the rest of
           <span>
-            <a href=""> my work </a>
+            <a href="/projects"> my work </a>
           </span>
           !
         </p>

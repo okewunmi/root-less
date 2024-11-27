@@ -138,4 +138,4 @@ export const TopSec = styled.div`
     }
   }
 
-`
+`;

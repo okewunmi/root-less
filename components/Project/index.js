@@ -126,12 +126,11 @@ const index = () => {
       </Content>
       <div className="link">
         <p>
-          Check out the rest of{" "}
+          Check out the rest of
           <span>
-            {" "}
             <a href=""> my work </a>
-          </span>{" "}
-          !{" "}
+          </span>
+          !
         </p>
       </div>
     </Wrapper>

@@ -97,9 +97,9 @@ const Detail = () => {
         </div>
         <div className="image__box">
           <Image
-            src="/laptophone.png"
-            width={400}
-            height={400}
+            src="/home.png"
+            width={506}
+            height={330}
             className="img"
             alt="image"
           />

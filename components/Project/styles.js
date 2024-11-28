@@ -204,7 +204,7 @@ export const Content = styled.div`
     &__text {
       padding: 0 1rem;
       /* display: flex;
-    flex-direction: column; */
+      flex-direction: column; */
 
       &--big {
         color: white;

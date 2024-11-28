@@ -22,7 +22,7 @@ export const Content = styled.div`
   .txt__box {
     width: 55%;
     color: white;
-    padding: 0rem 0 0 9rem;
+    padding: 0rem 0 0 4rem;
     display: flex;
     flex-direction: column;
     @media only screen and (max-width: 1200px) {

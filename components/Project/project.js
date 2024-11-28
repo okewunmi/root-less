@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Wrappers, Content } from "./styles.js";
 import photo1 from "../../public/ptvs.jpeg";
 import photo2 from "../../public/zoomRida.png";

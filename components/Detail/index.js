@@ -23,8 +23,8 @@ const Detail = () => {
               <div className="icon">
                 <Image
                   src="/ux.png"
-                  width={45}
-                  height={45}
+                  width={40}
+                  height={40}
                   className="svg"
                   alt="image"
                 />
@@ -33,8 +33,8 @@ const Detail = () => {
               <div className="icon">
                 <Image
                   src="/ui.png"
-                  width={45}
-                  height={45}
+                  width={40}
+                  height={40}
                   className="svg"
                   alt="image"
                 />
@@ -43,8 +43,8 @@ const Detail = () => {
               <div className="icon">
                 <Image
                   src="/search.png"
-                  width={45}
-                  height={45}
+                  width={40}
+                  height={40}
                   className="svg"
                   alt="image"
                 />
@@ -53,8 +53,8 @@ const Detail = () => {
               <div className="icon">
                 <Image
                   src="/brand.png"
-                  width={45}
-                  height={45}
+                  width={40}
+                  height={40}
                   className="svg"
                   alt="image"
                 />
@@ -65,8 +65,8 @@ const Detail = () => {
               <div className="icon">
                 <Image
                   src="/product.png"
-                  width={45}
-                  height={45}
+                  width={40}
+                  height={40}
                   className="svg"
                   alt="image"
                 />
@@ -75,8 +75,8 @@ const Detail = () => {
               <div className="icon">
                 <Image
                   src="/marketing.png"
-                  width={45}
-                  height={45}
+                  width={40}
+                  height={40}
                   className="svg"
                   alt="image"
                 />
@@ -85,8 +85,8 @@ const Detail = () => {
               <div className="icon">
                 <Image
                   src="/marketing.png"
-                  width={45}
-                  height={45}
+                  width={40}
+                  height={40}
                   className="svg"
                   alt="image"
                 />
@@ -98,7 +98,7 @@ const Detail = () => {
         <div className="image__box">
           <Image
             src="/home.png"
-            width={506}
+            width={545}
             height={330}
             className="img"
             alt="image"

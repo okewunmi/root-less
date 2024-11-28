@@ -20,9 +20,9 @@ export const Content = styled.div`
   }
 
   .txt__box {
-    width: 55%;
+    width: 50%;
     color: white;
-    padding: 0rem 0 0 4rem;
+    padding: 0rem 0 0 8rem;
     display: flex;
     flex-direction: column;
     @media only screen and (max-width: 1200px) {
@@ -33,7 +33,7 @@ export const Content = styled.div`
     }
 
     .txt__heading {
-      /* width:95%; */
+      /* width: 95%; */
       font-size: 2.2rem;
       font-weight: 700;
       word-spacing: 1px;
@@ -61,19 +61,20 @@ export const Content = styled.div`
     .txt__icons {
       display: flex;
       flex: 1;
-      gap: 1rem;
-      /* width: 10%; */
+      gap: 0.5rem;
+      width: 50rem;
 
       .icon {
         display: flex;
         justify-content: space-around;
         background: rgba(128, 128, 128, 0.16);
         border-radius: 1.4rem;
-        padding: 0 1.1rem;
+        padding: 0 1rem;
         font-size: 0.8rem;
         font-weight: 400;
         display: flex;
         align-items: center;
+        /* justify-content: center; */
         color: rgba(255, 255, 255, 0.8);
         .svg {
           padding-right: 0.5rem;

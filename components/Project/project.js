@@ -32,13 +32,13 @@ const index = () => {
             </p>
           </div>
           <div className="box__btn">
-            <a
+            <Link
               target="_blank"
               href="https://www.figma.com/proto/18IgzqBnoySPLsJHVBj1Ta/Photo-Truth-verification-system?page-id=21%3A3&node-id=509-3125&node-type=frame&viewport=1798%2C1222%2C0.52&t=WTKmZoihBvhfLxJF-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=121%3A3195"
               className="btn"
             >
               View Prototype video
-            </a>
+            </Link>
           </div>
         </div>
         <div className="box">
@@ -58,13 +58,13 @@ const index = () => {
             </p>
           </div>
           <div className="box__btn">
-            <a
+            <Link
               target="_blank"
               href="https://www.figma.com/proto/8yLsTfpUjRvLmJHfo3CRK0/Ride-App?type=design&node-id=166-3357&t=cNuypVrJynvNFZSm-1&scaling=scale-down&page-id=9%3A642&starting-point-node-id=182%3A2321&show-proto-sidebar=1&mode=design"
               className="btn"
             >
               View Prototype video
-            </a>
+            </Link>
           </div>
         </div>
         {/* zoom off image is required */}
@@ -85,13 +85,13 @@ const index = () => {
             </p>
           </div>
           <div className="box__btn">
-            <a
+            <Link
               target="_blank"
               href="https://www.figma.com/design/8E7Tth77EuqTW9Tl5xT9mw/Kenpact-Designs?node-idc0-1&t=lgiL815mVQVzSqBt-1"
               className="btn"
             >
               View Prototype video
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -113,13 +113,13 @@ const index = () => {
             </p>
           </div>
           <div className="box__btn">
-            <a
+            <Link
               target="_blank"
               href="https://www.figma.com/proto/hyADwBEMbwzVu7B573AsNx/Laundry-Service-Alfa-Aaqib?page-id=0%3A1&node-id=2-158&node-type=canvas&viewport=2640%2C1050%2C0.54&t=eUjbjUBeTUCKmeH8-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=31%3A636&show-proto-sidebar=1"
               className="btn"
             >
               View Prototype video
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -140,13 +140,13 @@ const index = () => {
             </p>
           </div>
           <div className="box__btn">
-            <a
+            <Link
               target="_blank"
               href="https://www.figma.com/proto/338Y1KWDH1DILIws78oXg5/Extante-Rental-homes?page-id=&node-id=67-863&node-type=canvas&viewport=-759%2C-127%2C0.1&t=Q7nBSZar8tUhTymE-1&scaling=contain&content-scaling=fixed&starting-point-node-id=67%3A863"
               className="btn"
             >
               View Prototype video
-            </a>
+            </Link>
           </div>
         </div>
       </Content>

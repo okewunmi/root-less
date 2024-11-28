@@ -4,7 +4,7 @@ import photo1 from "../../public/ptvs.jpeg";
 import photo2 from "../../public/zoomRida.png";
 import photo3 from "../../public/e-clean.png";
 import photo4 from "../../public/external.png";
-import photo5 from "../../public/zoom.png";
+import photo5 from "../../public/ken.png";
 
 const index = () => {
   return (
@@ -77,15 +77,19 @@ const index = () => {
             alt="image"
           />
           <div className="box__text">
-            <h3 className="box__text--big">Zoom Off</h3>
+            <h3 className="box__text--big">Kenpact Designs</h3>
             <p className="box__text--small">Ui Design, Apple store Design</p>
             <p className="box__text--small-2">
-              This design shows the design of a app on an iphone apple store amd
-              how an app accomodates them
+              This design shows the design of a website which is for a design
+              agency.
             </p>
           </div>
           <div className="box__btn">
-            <a target="_blank" href="#" className="btn">
+            <a
+              target="_blank"
+              href="https://www.figma.com/design/8E7Tth77EuqTW9Tl5xT9mw/Kenpact-Designs?node-idc0-1&t=lgiL815mVQVzSqBt-1"
+              className="btn"
+            >
               View Prototype video
             </a>
           </div>

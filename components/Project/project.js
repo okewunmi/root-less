@@ -72,8 +72,8 @@ const index = () => {
           <Image
             className="grid__img"
             src={photo5}
-            width={450}
-            height={420}
+            width={440}
+            height={390}
             alt="image"
           />
           <div className="box__text">

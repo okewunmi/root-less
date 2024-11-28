@@ -22,6 +22,9 @@ export const Content = styled.div`
   .txt__box {
     width: 50%;
     color: white;
+    position: relative;
+    /* left: 20rem; */
+    left: 4rem;
     padding: 0rem 0 0 8rem;
     display: flex;
     flex-direction: column;

@@ -33,6 +33,8 @@ export const Content = styled.div`
     }
     @media only screen and (max-width: 992px) {
       width: 100%;
+      text-align: center;
+      left: 0;
     }
 
     .txt__heading {

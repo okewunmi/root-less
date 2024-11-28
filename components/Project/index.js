@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Wrapper, Content } from "./styles.js";
 import photo1 from "../../public/ptvs.jpeg";
 import photo2 from "../../public/zoomRida.png";
@@ -128,7 +129,7 @@ const index = () => {
         <p>
           Check out the rest of
           <span>
-            <a href="/projects"> my work </a>
+            <Link href="/projects"> my work </Link>
           </span>
           !
         </p>
